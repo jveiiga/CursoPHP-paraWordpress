@@ -10,5 +10,5 @@
         'profissao' => 'programador'
     ];
 
-    echo 'Meu nome é ' .$array['nome']. ' e minha idade é ' .$array['idade']. ' e quero ser ' .$array['profissao']. '.'  ;
+    echo 'Meu nome é ' .$array['nome']. ' e minha idade é ' .$array['idade']. ' e quero ser ' .$array['profissao']. '.';
 ?>
