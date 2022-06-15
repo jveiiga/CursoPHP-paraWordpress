@@ -1,14 +1,14 @@
 <?php
     /*
-    CONTEÚDO AULA 4
-         Tipos primitos
-         - string
-         - number
-         - boolean
-       
+    CONTEÚDO AULA 5
+    - acessando array  
     */ 
-    $string = "PHP";
-    $int = 9;
-    $boolean = true || false;
-    $array = array('string', 171, true)
+    $array = [
+        'nome' => 'Jeferson',
+        'idade' => '33',
+        'ativo' => true,
+        'profissao' => 'programador'
+    ];
+
+    echo 'Meu nome é ' .$array['nome']. ' e minha idade é ' .$array['idade']. ' e quero ser ' .$array['profissao']. '.'  ;
 ?>
