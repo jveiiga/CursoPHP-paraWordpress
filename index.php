@@ -1,6 +1,6 @@
 <?php
     /*
-    CONTEÚDO AULA 5
+    CONTEÚDO AULA 6
     - acessando array  
     */ 
     $array = [
