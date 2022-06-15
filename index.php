@@ -1,9 +1,11 @@
 <?php
     /*
-    CONTEÚDO AULA 7
-    - Constantes em PHP 
+    CONTEÚDO AULA 8
+    - Usando valores de variáveis e concatenando com strings 
     */ 
-    define('URL', 'jveiga.dev');
+    $nome = 'Jhow';
+    $tipo = 'cão';
+    $raça = 'vira-lata';
 
-    echo URL;
+    echo 'Meu nome é ' .$nome. ' e eu sou um ' .$tipo. ' ' .$raça.' muito legal!' 
 ?>
