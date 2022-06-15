@@ -1,14 +1,9 @@
 <?php
     /*
-    CONTEÚDO AULA 6
-    - acessando array  
+    CONTEÚDO AULA 7
+    - Constantes em PHP 
     */ 
-    $array = [
-        'nome' => 'Jeferson',
-        'idade' => '33',
-        'ativo' => true,
-        'profissao' => 'programador'
-    ];
+    define('URL', 'jveiga.dev');
 
-    echo 'Meu nome é ' .$array['nome']. ' e minha idade é ' .$array['idade']. ' e quero ser ' .$array['profissao']. '.';
+    echo URL;
 ?>
