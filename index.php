@@ -1,29 +1,17 @@
 <?php
     /*
-    CONTEÚDO AULA 9
-    - Operadores Aritméticos
+    CONTEÚDO AULA 10
+    - Operadores de comparaçã0
+        AND e OR ou && e ||
     */ 
 
-    /*
-    == Igualdade               ex: a == b 
-    !== Diferente              ex: a !== b
-    <> Diferente               ex: a <> b
-    === Igualdade estrita      ex: a === b
-    > Maior                    ex: a > b
-    >= Maior Igual             ex: a >= b  
-    < Menor                    ex: a < b
-    <= Menor Igual             ex: a <= b
-    */
+    $nome1 = 'Jeferson';
+    $nome2 = 'jeferson';
+    $nome3 = 'Jeferson jeferson';
 
-    $a = 10;
-    $b = 20;
+    var_dump( $nome1 && $nome2 === $nome3 );
+    var_dump( $nome1 || $nome2 === $nome3 );
 
-    var_dump($a == $b);
-    var_dump($a !== $b);
-    var_dump($a <> $b);
-    var_dump($a === $b);
-    var_dump($a > $b);
-    var_dump($a >= $b);
-    var_dump($a < $b);
-    var_dump($a <= $b);
+    var_dump( $nome1 AND $nome2 === $nome3 );
+    var_dump( $nome1 OR $nome2 === $nome3 );
 ?>
