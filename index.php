@@ -1,14 +1,17 @@
 <?php
     /*
-    CONTEÚDO AULA 5
-    - acessando array  
+    CONTEÚDO AULA 10
+    - Operadores de comparaçã0
+        AND e OR ou && e ||
     */ 
-    $array = [
-        'nome' => 'Jeferson',
-        'idade' => '33',
-        'ativo' => true,
-        'profissao' => 'programador'
-    ];
 
-    echo 'Meu nome é ' .$array['nome']. ' e minha idade é ' .$array['idade']. ' e quero ser ' .$array['profissao']. '.';
+    $nome1 = 'Jeferson';
+    $nome2 = 'jeferson';
+    $nome3 = 'Jeferson jeferson';
+
+    var_dump( $nome1 && $nome2 === $nome3 );
+    var_dump( $nome1 || $nome2 === $nome3 );
+
+    var_dump( $nome1 AND $nome2 === $nome3 );
+    var_dump( $nome1 OR $nome2 === $nome3 );
 ?>
