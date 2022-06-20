@@ -1,15 +1,13 @@
 <?php
     /*
-    CONTEÚDO AULA 11
-    - Estrutura de decisão
-        if, else if e else
+    CONTEÚDO AULA 12
+    - Laços de repetição com while  
     */ 
+    $i = 1;
 
-    $valor = 11;
-
-    if($valor > 10){
-        echo 'Sou maior que 10';
-    }else {
-        echo 'Sou menor que 10';
+    while($i < 11) {
+        echo $i;
+        $i++;
     }
+    
 ?>
