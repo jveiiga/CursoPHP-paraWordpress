@@ -1,17 +1,15 @@
 <?php
     /*
-    CONTEÚDO AULA 10
-    - Operadores de comparaçã0
-        AND e OR ou && e ||
+    CONTEÚDO AULA 11
+    - Estrutura de decisão
+        if, else if e else
     */ 
 
-    $nome1 = 'Jeferson';
-    $nome2 = 'jeferson';
-    $nome3 = 'Jeferson jeferson';
+    $valor = 11;
 
-    var_dump( $nome1 && $nome2 === $nome3 );
-    var_dump( $nome1 || $nome2 === $nome3 );
-
-    var_dump( $nome1 AND $nome2 === $nome3 );
-    var_dump( $nome1 OR $nome2 === $nome3 );
+    if($valor > 10){
+        echo 'Sou maior que 10';
+    }else {
+        echo 'Sou menor que 10';
+    }
 ?>
