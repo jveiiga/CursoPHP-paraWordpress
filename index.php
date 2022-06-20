@@ -1,8 +1,7 @@
 <?php
     /*
     CONTEÚDO AULA 12
-    - Laços de repetição
-        for, while e do while 
+    - Laços de repetição com while 
     */ 
     $i = 1;
 
@@ -10,5 +9,5 @@
         echo $i;
         $i++;
     }
-    
+
 ?>
